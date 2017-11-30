@@ -34,6 +34,15 @@
                 <% end %>
               
               </div>
+              <div class="buttons text-center">
+                
+                <% if logged_in? %>
+                
+                <%= render 'ownerships/have_button', item: item %>
+                
+                <% end %>
+              
+              </div>
             </div>
           </div>
         </div>
