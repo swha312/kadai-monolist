@@ -55,3 +55,7 @@ gem 'rakuten_web_service' , '1.5.0'
 gem 'dotenv-rails'
 
 gem 'jquery-rails'
+
+group :production do
+  gem 'pg'
+end
